@@ -102,3 +102,65 @@ header nav a:hover {
     font-size: 21px;
     color: #48BB78;
 }
+
+.testing {
+    background: #4A5568;
+    color: white;
+    padding: 60px 0;
+}
+
+.testing .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.testing-desciption h2 {
+    margin-top: 0;
+}
+
+.btn {
+    display: inline-block;
+    background: #48BB78;
+    color: white;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.stories {
+    padding: 40px 0;
+}
+
+.stories h2 {
+    color: #5A67D8;
+    margin-top: 0;
+}
+
+.stories article {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.stories article img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.stories h3 {
+    font-size: 18px;
+    margin-top: 0;
+}
+
+.stories a {
+    color: #5A67D8;
+}
