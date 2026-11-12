@@ -164,3 +164,43 @@ header nav a:hover {
 .stories a {
     color: #5A67D8;
 }
+
+.newsletter {
+    background: #48BB78;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.newsletter h3 {
+    margin-top: 0;
+}
+
+.newsletter form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.newsletter input {
+    padding: 12px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.newsletter .btn {
+    background: #5A67D8;
+}
+
+.message {
+    margin-top: 20px;
+}
+
+footer {
+    background: #4A5568;
+    color: white;
+    padding: 20px 0;
+}
